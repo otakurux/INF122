@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(23, 19, 41);
+}
+
+li{
+    color: rgb(173, 173, 173);
+}
+
+ol li{
+    font-size: 30px;
+    color: rgb(132, 1, 255);
+    text-align: center;
+}
+
+ul li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 0);
+    color: rgb(0,  255, 0);
+}
+
+h1{
+    background-color: rgb(12, 12, 12);
+    font-size: 25px;
+    color: rgb(225, 0, 0);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+}
+
+.enviar{
+    background-color: blue;
+}
+
+.etiqueta{
+    background-color: aquamarine;
+    font-size: 15px;
+}
