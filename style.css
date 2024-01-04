@@ -1,7 +1,3 @@
-body{
-    background-color: rgb(23, 19, 41);
-}
-
 li{
     color: rgb(173, 173, 173);
 }
@@ -19,9 +15,7 @@ ul li{
 }
 
 h1{
-    background-color: rgb(12, 12, 12);
     font-size: 25px;
-    color: rgb(225, 0, 0);
 }
 
 p{
@@ -35,11 +29,33 @@ img{
     align-items: center;
 }
 
-.enviar{
-    background-color: blue;
+.etiqueta{
+    background-color: #fd008b;
+    font-size: 15px;
+    color: #0c0c0b;
 }
 
-.etiqueta{
-    background-color: aquamarine;
-    font-size: 15px;
+
+/* stile form */
+
+body{
+    background-color: #cfd1d4;
 }
+
+h1{
+    text-align: center;
+    color: #ce2b9d;
+}
+
+h2{
+    color: #ff0062;
+}
+
+.submit{
+    border-radius: 5px;
+    border-color: #51f55f;
+    background-color: #09a316;
+    color: #1a191b;
+}
+
+
