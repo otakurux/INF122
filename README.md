@@ -1,3 +1,3 @@
 # inf122
-nombre: Deivid Enrique Mamani Trujillo
-materia: INF - 122
+NOMBRE: Deivid Enrique Mamani Trujillo
+MATERIA: INF-122
