@@ -9,22 +9,38 @@ function Evento() {
       <img className="card-image"
         src={require("../N_Imagenes/img1.jpg")}
         alt="Foto del evento" />
+      <div className="card-info">
+        <div className="card-content">
+          <div className="card-content-t-i">
+            <h2 className="card-title">Py Pizza 03 - PyPuzzle</h2>
+            <a className="card-link"><spam>proximamente</spam></a>
+            {/* <button className="card-input">
+              <span>proximamente</span>
+            </button> */}
+          </div>
+          <p className="card-date">09 de Diciembre de 2023 - 13:30 GMT-4</p>
+          <p className="card-place">Mr Pizza, 20 de Octubre Frente a la Plaza Abaroa, La Paz, Bolivia</p>
+          <p className="card-description">¡Hola Pythonista!
+            Participa en este Evento Presencial de la comunidad Python La Paz
+            ¿Cuánto conoces de Python?
+            Aprende a trabajar en equipo resolviendo increíbles acertijo
+            ¡Anímate a ser parte de esta actividad!</p>
+        </div>
 
-      <div className="card-content">
-        <h2 className="card-title">Py Pizza 03 - PyPuzzle</h2>
-        <p className="card-date">09 de Diciembre de 2023 - 13:30 GMT-4</p>
-        <p className="card-place">Mr Pizza, 20 de Octubre Frente a la Plaza Abaroa, La Paz, Bolivia</p>
-        <p className="card-description">¡Hola Pythonista!
-          Participa en este Evento Presencial de la comunidad Python La Paz
-          ¿Cuánto conoces de Python?
-          Aprende a trabajar en equipo resolviendo increíbles acertijo
-          ¡Anímate a ser parte de esta actividad!</p>
-      </div>
-      <div>
-        <img src={MiImagen} alt="Descripción de la imagen" />
-      </div>
-
-      <div className="card-icon">
+        <div className="card-enlaces">
+          <figure>
+            <img className="card-icons" src={MiImagen} alt="Descripción de la imagen" />
+          </figure>
+          <figure>
+            <img className="card-icons" src={MiImagen} alt="Descripción de la imagen" />
+          </figure>
+          <figure>
+            <img className="card-icons" src={MiImagen} alt="Descripción de la imagen" />
+          </figure>
+          <figure>
+            <img className="card-icons" src={MiImagen} alt="Descripción de la imagen" />
+          </figure>
+        </div>
       </div>
     </div>
   );

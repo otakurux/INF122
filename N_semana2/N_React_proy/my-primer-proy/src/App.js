@@ -1,14 +1,14 @@
 import './App.css';
 import Evento from './N_Components/Evento.js'
 import EventoB from './N_Components/EventoB.js'
-// import evento2 from '../N_Imagenes/valentina.jpg';
+// import evento2 from './N_Imagenes/valentina.jpg';
 
 function App() {
   return (
     <div className="App">
       <Evento />
       <EventoB title="Py Pizza 03 - PyPuzzle"
-        image="evento1"
+        image={require(`./N_Imagenes/img1.jpg`)}
         dateLiteral="09 de Diciembre de 2023 - 13:30 GMT-4"
         placeLiteral="Mr Pizza, 20 de Octubre Frente a la Plaza Abaroa, La Paz, Bolivia"
         description="
@@ -20,7 +20,8 @@ function App() {
         "
       />
       <EventoB title="Valentina"
-        image={require('./N_Imagenes/valentina.jpg')}
+        
+        image={require(`./N_Imagenes/valentina.jpg`)}
         dateLiteral="fecha de agregacion: 25 November 2021"
         placeLiteral="Role: Mage"
         description="
