@@ -59,7 +59,7 @@ body {
 .icons-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 50px 20px 50px 20px;
+    margin: 10px 50px 10px 50px;
     justify-content: center;
 }
 
@@ -68,12 +68,19 @@ body {
     height: 160px;
     display: flex;
     flex-direction: column;
-    margin: 16px 27px 16px 27px;
+    margin: 16px 28px 16px 28px;
     background-color: var(--black);
     border-radius: 5px;
 }
 
-figure img {
+figure{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+figure svg {
     width: 50px;
     height: 50px;
 }
@@ -86,7 +93,16 @@ figure img {
 .icon-text p {
     font-size: var(--sm);
     margin: 0;
+    padding: 20px;
+    text-align: center;
     color: var(--clear-grey);
+}
+
+.contenedor {
+    border: 1px solid #000000;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 720px) {
