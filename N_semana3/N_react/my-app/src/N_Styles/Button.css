@@ -1,0 +1,24 @@
+:root{
+    --fuente: Roboto, sans-serif;
+    --oranch: #FF872C;
+    --whith: #DCDCE5;
+
+    --md: 24px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    font-family: var(--fuente);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: var(--md);
+    background-color: var(--oranch);
+    color: var(--whith);
+}
+
+button:hover {
+    background-color: var(--whith);
+    color: var(--oranch);
+}
