@@ -7,6 +7,7 @@ import { useState } from 'react';
 
 function App() {
   const [nroClicks, setNroClicks] = useState(0);
+  const [show, setShow] = useState(true);
 
   const Click = () => {
     setNroClicks(nroClicks + 1);
@@ -34,10 +35,14 @@ function App() {
     console.log("reiniciar");
   }
 
+  const mostrar = () => {
+    setShow(!show);
+  }
+
   return (
     <div className="App">
       <div className="contenedor-principal">
-        <Contador nroClicks={nroClicks} />
+        <Contador nroClicks={nroClicks} mostrar={show} />
 
         <div className='contenedor-principal'>
           <div className='contendedor-botones-secundario'>
@@ -54,11 +59,17 @@ function App() {
         <div className='contendedor-botones'>
           <Button texto="Reiniciar" esBotonClick={false}
             funcionClick={Reiniciar} />
+          <Button texto="mostrar" esBotonClick={false}
+            funcionClick={mostrar} />
         </div>
       </div>
+
 
     </div>
   );
 }
 
 export default App;
+
+
+// react challenges
