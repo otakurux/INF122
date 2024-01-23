@@ -1,0 +1,73 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --yellow: #FFE071;
+    --gray: #2BBE34;
+    --gray-blue: #0D1423;
+
+    --light-purple: #EFE9F9;
+    --red-heart: ##A50954;
+    --blue-heart: #ACD9B2;
+
+    --backgraud-div: #0C151D;
+    --backgraud-section: #171F26;
+    --backgraud-pag: #0C151D;
+    --clear-grey: #A3ABB2;
+
+    --sm: 14px;
+    --md: 22px;
+    --lg: 46px;
+}
+
+.perfil-container {
+    background-color: var(--backgraud-pag);
+    font-family: "Poppins";
+    margin: 0;
+    color: var(--white);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.perfil-container {
+    display: flex;
+    width: 631px;
+}
+
+.perfil-info {
+    width: 372px;
+    height: 156;
+    margin: 30px 0 30px 50px;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 5px solid var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.redes-sociales {
+    display: flex;
+    margin: 0;
+}
+
+.title{
+    font-size: var(--lg);
+    display: flex;
+}
+
+.subtitle {
+    color: var(--clear-grey);
+    font-size: var(--md);
+}
