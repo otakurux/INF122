@@ -1,0 +1,26 @@
+:root {
+  --fuente: Roboto, sans-serif;
+
+  --black: #000000;
+  --oranch: #FF872C;
+  --whith: #DCDCE5;
+
+  --md: 24px;
+  --mg: 50px
+}
+
+.cuadro {
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--black);
+  font-size: var(--mg);
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--black);
+  color: var(--whith);
+}
+
