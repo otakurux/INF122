@@ -10,7 +10,9 @@
     font-size: 30px;
 }
 
-.box img {
+
+.image {
     border-radius: 10%;
     object-fit: cover;
 }
+

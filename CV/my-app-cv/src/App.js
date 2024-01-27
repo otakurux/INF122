@@ -4,13 +4,14 @@ import Info from './componentes/Info';
 import ButtonContainer from './componentes/ButtonContainer';
 import Work from './componentes/Work';
 import Galeria from './componentes/Galeria';
+// import fotoPerfil from "./images/perfil_picture.jpeg";
 
 function App() {
   return (
     <div className="App">
       <div className='section'>
-        <Perfil 
-          fotoPerfil={"./images/perfil_picture.jpeg"}
+        <Perfil
+          // fotoPerfil={"./images/perfil_picture.jpeg"}
           name={"name"}
           cargo={"junio-basic"}
         />

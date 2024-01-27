@@ -20,7 +20,7 @@ function Dog({ title }) {
     return (
         <div className={style.box}>
             <h1>{title}</h1>
-            <Image src={dog} alt="dog" width={500} height={500} />
+            <Image src={dog} alt="dog" width={500} height={500} className={style.image}/>
         </div>
     );
 }
